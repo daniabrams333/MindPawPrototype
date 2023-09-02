@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0703020B2A60B37100BAEEBE /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703020A2A60B37100BAEEBE /* GoalDetailView.swift */; };
+		0703020D2A60BCAE00BAEEBE /* SavedProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703020C2A60BCAE00BAEEBE /* SavedProfile.swift */; };
+		0703020F2A60BCC300BAEEBE /* ShowSaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703020E2A60BCC300BAEEBE /* ShowSaved.swift */; };
+		070302112A60C90500BAEEBE /* EditGoalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070302102A60C90500BAEEBE /* EditGoalPage.swift */; };
+		0796EE6C2A5E14AC007DDCC7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796EE6B2A5E14AC007DDCC7 /* LoginView.swift */; };
+		0796EE6E2A5E14B5007DDCC7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796EE6D2A5E14B5007DDCC7 /* ProfileView.swift */; };
+		0796EE702A5E19D7007DDCC7 /* ResourceTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796EE6F2A5E19D7007DDCC7 /* ResourceTab.swift */; };
+		0796EE722A5E19DF007DDCC7 /* PawQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796EE712A5E19DF007DDCC7 /* PawQuotes.swift */; };
+		0796EE742A5E2E66007DDCC7 /* PetIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796EE732A5E2E66007DDCC7 /* PetIntro.swift */; };
+		0796EE762A5E2EC6007DDCC7 /* Zuazi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796EE752A5E2EC6007DDCC7 /* Zuazi.swift */; };
+		0796EE782A5E36C9007DDCC7 /* ChooseAGoalPath.v2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796EE772A5E36C9007DDCC7 /* ChooseAGoalPath.v2.swift */; };
+		0796EE7A2A5E36D5007DDCC7 /* SetYourGoals.v2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796EE792A5E36D5007DDCC7 /* SetYourGoals.v2.swift */; };
+		0796EE7C2A5E36F6007DDCC7 /* SetYourGoalsPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796EE7B2A5E36F6007DDCC7 /* SetYourGoalsPage2.swift */; };
+		07BCC7982A5F71BD00AD5E6C /* SmartGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC7972A5F71BD00AD5E6C /* SmartGoalsView.swift */; };
+		07E0EE432A5DD612008E3F67 /* MindPawProtoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE422A5DD612008E3F67 /* MindPawProtoApp.swift */; };
+		07E0EE472A5DD613008E3F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E0EE462A5DD613008E3F67 /* Assets.xcassets */; };
+		07E0EE4A2A5DD613008E3F67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E0EE492A5DD613008E3F67 /* Preview Assets.xcassets */; };
+		07E0EE522A5DD6B2008E3F67 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE512A5DD6B2008E3F67 /* Welcome.swift */; };
+		07E0EE542A5DD74B008E3F67 /* MPGoalProgressActiveDLA in Resources */ = {isa = PBXBuildFile; fileRef = 07E0EE532A5DD74B008E3F67 /* MPGoalProgressActiveDLA */; };
+		07E0EE612A5DD81D008E3F67 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE582A5DD81D008E3F67 /* ProgressBar.swift */; };
+		07E0EE622A5DD81D008E3F67 /* ChatBubbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE592A5DD81D008E3F67 /* ChatBubbles.swift */; };
+		07E0EE632A5DD81D008E3F67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE5A2A5DD81D008E3F67 /* ContentView.swift */; };
+		07E0EE642A5DD81D008E3F67 /* GoalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE5B2A5DD81D008E3F67 /* GoalCard.swift */; };
+		07E0EE652A5DD81D008E3F67 /* GoalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE5C2A5DD81D008E3F67 /* GoalProgressView.swift */; };
+		07E0EE662A5DD81D008E3F67 /* NavTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE5D2A5DD81D008E3F67 /* NavTabBarView.swift */; };
+		07E0EE672A5DD81D008E3F67 /* PetCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE5E2A5DD81D008E3F67 /* PetCare.swift */; };
+		07E0EE682A5DD81D008E3F67 /* PetMotivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE5F2A5DD81D008E3F67 /* PetMotivate.swift */; };
+		07E0EE6C2A5DD88E008E3F67 /* GoalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE6A2A5DD88E008E3F67 /* GoalData.swift */; };
+		07E0EE6D2A5DD88E008E3F67 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E0EE6B2A5DD88E008E3F67 /* Goal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0703020A2A60B37100BAEEBE /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
+		0703020C2A60BCAE00BAEEBE /* SavedProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedProfile.swift; sourceTree = "<group>"; };
+		0703020E2A60BCC300BAEEBE /* ShowSaved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSaved.swift; sourceTree = "<group>"; };
+		070302102A60C90500BAEEBE /* EditGoalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalPage.swift; sourceTree = "<group>"; };
+		0796EE6B2A5E14AC007DDCC7 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0796EE6D2A5E14B5007DDCC7 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0796EE6F2A5E19D7007DDCC7 /* ResourceTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceTab.swift; sourceTree = "<group>"; };
+		0796EE712A5E19DF007DDCC7 /* PawQuotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PawQuotes.swift; sourceTree = "<group>"; };
+		0796EE732A5E2E66007DDCC7 /* PetIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetIntro.swift; sourceTree = "<group>"; };
+		0796EE752A5E2EC6007DDCC7 /* Zuazi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zuazi.swift; sourceTree = "<group>"; };
+		0796EE772A5E36C9007DDCC7 /* ChooseAGoalPath.v2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseAGoalPath.v2.swift; sourceTree = "<group>"; };
+		0796EE792A5E36D5007DDCC7 /* SetYourGoals.v2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetYourGoals.v2.swift; sourceTree = "<group>"; };
+		0796EE7B2A5E36F6007DDCC7 /* SetYourGoalsPage2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetYourGoalsPage2.swift; sourceTree = "<group>"; };
+		07BCC7972A5F71BD00AD5E6C /* SmartGoalsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartGoalsView.swift; sourceTree = "<group>"; };
+		07E0EE3F2A5DD612008E3F67 /* MindPawProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindPawProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E0EE422A5DD612008E3F67 /* MindPawProtoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindPawProtoApp.swift; sourceTree = "<group>"; };
+		07E0EE462A5DD613008E3F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07E0EE492A5DD613008E3F67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07E0EE512A5DD6B2008E3F67 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		07E0EE532A5DD74B008E3F67 /* MPGoalProgressActiveDLA */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MPGoalProgressActiveDLA; sourceTree = "<group>"; };
+		07E0EE582A5DD81D008E3F67 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProgressBar.swift; path = MPGoalProgressActiveDLA/MPGoalProgressActiveDLA/Views/ProgressBar.swift; sourceTree = "<group>"; };
+		07E0EE592A5DD81D008E3F67 /* ChatBubbles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatBubbles.swift; path = MPGoalProgressActiveDLA/MPGoalProgressActiveDLA/Views/ChatBubbles.swift; sourceTree = "<group>"; };
+		07E0EE5A2A5DD81D008E3F67 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = MPGoalProgressActiveDLA/MPGoalProgressActiveDLA/Views/ContentView.swift; sourceTree = "<group>"; };
+		07E0EE5B2A5DD81D008E3F67 /* GoalCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoalCard.swift; path = MPGoalProgressActiveDLA/MPGoalProgressActiveDLA/Views/GoalCard.swift; sourceTree = "<group>"; };
+		07E0EE5C2A5DD81D008E3F67 /* GoalProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoalProgressView.swift; path = MPGoalProgressActiveDLA/MPGoalProgressActiveDLA/Views/GoalProgressView.swift; sourceTree = "<group>"; };
+		07E0EE5D2A5DD81D008E3F67 /* NavTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavTabBarView.swift; path = MPGoalProgressActiveDLA/MPGoalProgressActiveDLA/Views/NavTabBarView.swift; sourceTree = "<group>"; };
+		07E0EE5E2A5DD81D008E3F67 /* PetCare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetCare.swift; path = MPGoalProgressActiveDLA/MPGoalProgressActiveDLA/Views/PetCare.swift; sourceTree = "<group>"; };
+		07E0EE5F2A5DD81D008E3F67 /* PetMotivate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetMotivate.swift; path = MPGoalProgressActiveDLA/MPGoalProgressActiveDLA/Views/PetMotivate.swift; sourceTree = "<group>"; };
+		07E0EE6A2A5DD88E008E3F67 /* GoalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalData.swift; sourceTree = "<group>"; };
+		07E0EE6B2A5DD88E008E3F67 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E0EE3C2A5DD612008E3F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E0EE362A5DD612008E3F67 = {
+			isa = PBXGroup;
+			children = (
+				07E0EE412A5DD612008E3F67 /* MindPawProto */,
+				07E0EE402A5DD612008E3F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07E0EE402A5DD612008E3F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07E0EE3F2A5DD612008E3F67 /* MindPawProto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07E0EE412A5DD612008E3F67 /* MindPawProto */ = {
+			isa = PBXGroup;
+			children = (
+				07E0EE692A5DD84C008E3F67 /* Data */,
+				07E0EE502A5DD680008E3F67 /* Views */,
+				07E0EE422A5DD612008E3F67 /* MindPawProtoApp.swift */,
+				07E0EE462A5DD613008E3F67 /* Assets.xcassets */,
+				07E0EE482A5DD613008E3F67 /* Preview Content */,
+			);
+			path = MindPawProto;
+			sourceTree = "<group>";
+		};
+		07E0EE482A5DD613008E3F67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07E0EE492A5DD613008E3F67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07E0EE502A5DD680008E3F67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0703020E2A60BCC300BAEEBE /* ShowSaved.swift */,
+				0703020C2A60BCAE00BAEEBE /* SavedProfile.swift */,
+				0796EE7B2A5E36F6007DDCC7 /* SetYourGoalsPage2.swift */,
+				0796EE772A5E36C9007DDCC7 /* ChooseAGoalPath.v2.swift */,
+				07E0EE5A2A5DD81D008E3F67 /* ContentView.swift */,
+				0796EE712A5E19DF007DDCC7 /* PawQuotes.swift */,
+				0796EE6F2A5E19D7007DDCC7 /* ResourceTab.swift */,
+				0796EE6D2A5E14B5007DDCC7 /* ProfileView.swift */,
+				0796EE6B2A5E14AC007DDCC7 /* LoginView.swift */,
+				0796EE792A5E36D5007DDCC7 /* SetYourGoals.v2.swift */,
+				07E0EE592A5DD81D008E3F67 /* ChatBubbles.swift */,
+				07E0EE5B2A5DD81D008E3F67 /* GoalCard.swift */,
+				0796EE752A5E2EC6007DDCC7 /* Zuazi.swift */,
+				07E0EE5C2A5DD81D008E3F67 /* GoalProgressView.swift */,
+				07E0EE5D2A5DD81D008E3F67 /* NavTabBarView.swift */,
+				07E0EE5E2A5DD81D008E3F67 /* PetCare.swift */,
+				07BCC7972A5F71BD00AD5E6C /* SmartGoalsView.swift */,
+				07E0EE5F2A5DD81D008E3F67 /* PetMotivate.swift */,
+				0796EE732A5E2E66007DDCC7 /* PetIntro.swift */,
+				070302102A60C90500BAEEBE /* EditGoalPage.swift */,
+				0703020A2A60B37100BAEEBE /* GoalDetailView.swift */,
+				07E0EE582A5DD81D008E3F67 /* ProgressBar.swift */,
+				07E0EE512A5DD6B2008E3F67 /* Welcome.swift */,
+				07E0EE532A5DD74B008E3F67 /* MPGoalProgressActiveDLA */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07E0EE692A5DD84C008E3F67 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				07E0EE6B2A5DD88E008E3F67 /* Goal.swift */,
+				07E0EE6A2A5DD88E008E3F67 /* GoalData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07E0EE3E2A5DD612008E3F67 /* MindPawProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E0EE4D2A5DD613008E3F67 /* Build configuration list for PBXNativeTarget "MindPawProto" */;
+			buildPhases = (
+				07E0EE3B2A5DD612008E3F67 /* Sources */,
+				07E0EE3C2A5DD612008E3F67 /* Frameworks */,
+				07E0EE3D2A5DD612008E3F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindPawProto;
+			productName = MindPawProto;
+			productReference = 07E0EE3F2A5DD612008E3F67 /* MindPawProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07E0EE372A5DD612008E3F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					07E0EE3E2A5DD612008E3F67 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 07E0EE3A2A5DD612008E3F67 /* Build configuration list for PBXProject "MindPawProto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07E0EE362A5DD612008E3F67;
+			productRefGroup = 07E0EE402A5DD612008E3F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E0EE3E2A5DD612008E3F67 /* MindPawProto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07E0EE3D2A5DD612008E3F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E0EE4A2A5DD613008E3F67 /* Preview Assets.xcassets in Resources */,
+				07E0EE472A5DD613008E3F67 /* Assets.xcassets in Resources */,
+				07E0EE542A5DD74B008E3F67 /* MPGoalProgressActiveDLA in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E0EE3B2A5DD612008E3F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0703020B2A60B37100BAEEBE /* GoalDetailView.swift in Sources */,
+				0703020F2A60BCC300BAEEBE /* ShowSaved.swift in Sources */,
+				07E0EE662A5DD81D008E3F67 /* NavTabBarView.swift in Sources */,
+				07E0EE522A5DD6B2008E3F67 /* Welcome.swift in Sources */,
+				07E0EE652A5DD81D008E3F67 /* GoalProgressView.swift in Sources */,
+				07E0EE632A5DD81D008E3F67 /* ContentView.swift in Sources */,
+				07E0EE622A5DD81D008E3F67 /* ChatBubbles.swift in Sources */,
+				07E0EE642A5DD81D008E3F67 /* GoalCard.swift in Sources */,
+				0796EE6E2A5E14B5007DDCC7 /* ProfileView.swift in Sources */,
+				0796EE7A2A5E36D5007DDCC7 /* SetYourGoals.v2.swift in Sources */,
+				0703020D2A60BCAE00BAEEBE /* SavedProfile.swift in Sources */,
+				07E0EE6C2A5DD88E008E3F67 /* GoalData.swift in Sources */,
+				0796EE6C2A5E14AC007DDCC7 /* LoginView.swift in Sources */,
+				07E0EE672A5DD81D008E3F67 /* PetCare.swift in Sources */,
+				0796EE702A5E19D7007DDCC7 /* ResourceTab.swift in Sources */,
+				07E0EE682A5DD81D008E3F67 /* PetMotivate.swift in Sources */,
+				07E0EE612A5DD81D008E3F67 /* ProgressBar.swift in Sources */,
+				0796EE742A5E2E66007DDCC7 /* PetIntro.swift in Sources */,
+				0796EE7C2A5E36F6007DDCC7 /* SetYourGoalsPage2.swift in Sources */,
+				0796EE782A5E36C9007DDCC7 /* ChooseAGoalPath.v2.swift in Sources */,
+				0796EE722A5E19DF007DDCC7 /* PawQuotes.swift in Sources */,
+				07E0EE6D2A5DD88E008E3F67 /* Goal.swift in Sources */,
+				07BCC7982A5F71BD00AD5E6C /* SmartGoalsView.swift in Sources */,
+				070302112A60C90500BAEEBE /* EditGoalPage.swift in Sources */,
+				07E0EE432A5DD612008E3F67 /* MindPawProtoApp.swift in Sources */,
+				0796EE762A5E2EC6007DDCC7 /* Zuazi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07E0EE4B2A5DD613008E3F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07E0EE4C2A5DD613008E3F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07E0EE4E2A5DD613008E3F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindPawProto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Superfriends.MindPawProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07E0EE4F2A5DD613008E3F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindPawProto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Superfriends.MindPawProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E0EE3A2A5DD612008E3F67 /* Build configuration list for PBXProject "MindPawProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E0EE4B2A5DD613008E3F67 /* Debug */,
+				07E0EE4C2A5DD613008E3F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E0EE4D2A5DD613008E3F67 /* Build configuration list for PBXNativeTarget "MindPawProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E0EE4E2A5DD613008E3F67 /* Debug */,
+				07E0EE4F2A5DD613008E3F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07E0EE372A5DD612008E3F67 /* Project object */;
+}
